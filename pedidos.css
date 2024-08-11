@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+
+  
+}
+
+body{background-position: 33%;
+   
+background-size: cover;}
+
+
+header {
+    background-color: #fc6183;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0% 10%;
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 10px 15px;
+  
+
+    border-radius: 20px;
+    margin-right: 70px;
+}
+
+header ul li a{ 
+    color: white;
+    text-decoration: none;
+}
+
+
+
+main{height: 92vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.linha {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+}
+
+.linha.rosa1, .linha.rosa3, .linha.rosa5 {
+    background-color: #fcdbe0;
+}
+
+.linha.rosa2, .linha.rosa4 {
+    background-color: #ffb6c1;
+}
+
+.linha.rosa2 img {
+    margin-left: 13%;
+}
+
+.linha.rosa4 img {
+    margin: 10px 0;
+    margin-left: 15%;
+}
+
+button {
+    background-color: #E95D7D;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 22220%;
+    margin-left: 11%;
+}
+
+button:hover {
+    background-color: #fc6183;
+}
+
+.direita {
+    margin-left: 45px;
+}
+
+.direita2 {
+    margin-left: 770%;
+}
+
+.linha.rosa3 {
+    display: flex;
+    align-items: center; 
+    padding: 10px; /
+}
+
+.linha.rosa3 .imagem-metodo-pagamento {
+    margin-right: 200px; 
+}
+
+.linha.rosa3 .texto-metodo-pagamento {
+    margin-right: 20px; 
+}
+
+.linha.rosa3 .selecione {
+    margin-left: 300px; 
+    display: flex;
+    align-items: center; 
+}
+
+
+
+.linha.rosa1 p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.linha.rosa5 p {
+    margin-left: 20%;
+}
+
+
